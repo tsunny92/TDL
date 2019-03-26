@@ -1,0 +1,37 @@
+LINUX INTERVIEW QUESTIIONS
+* How NTP works and its troubleshooting
+  =>To synchronize with ntp server clock
+  =>UDP packets with 123 port
+  =>Stratum - is hierarchy of NTP servers less the value better is the sync time
+  =>Offset - Difference betweeen hardware clock and reference clock
+	  ntpq -p will display the offsets for each reachable server in milliseconds (ntpdc -p uses 	seconds instead)
+    drft happens when hardware clock is fast / slow as compared to reference clock (NTP server)
+
+* How DNS works and its troubleshooting
+
+* How DHCP works
+* Cobbler 
+* Puppet
+* Kickstart
+* Process while patching 
+* Local repository - mirrors and all that
+* Apache permssions and cpanel
+* Postfix mail server 
+* Nic bonding
+* Iptables and firewalld
+* Cron jobs
+* what is TCP and UDP
+* Booting process
+* RAID levels , LVM , 
+* NAS and SAN
+* Checking ethernet link 
+* Log rotation
+
+what is third field in /etc/shadow file?  
+what is there in rc.d file how to run a process in particular series?  
+what is there in rc.d file how to run a process in particular series?  
+what is there in rc.d file how to run a process in particular series?  
+Create a function to sort an array of odd and even numbers so that the odd numbers would be grouped at the start of the array and the even numbers at the end. 
+Where is the IPv6 address stored in the DNS server?  
+Scanning and adding a new raw disk into LVM
+  
